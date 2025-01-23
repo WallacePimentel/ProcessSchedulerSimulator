@@ -1,26 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Spectre.Console/0.49.2-preview.0.70": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Spectre.Console/0.49.2-preview.0.70": {
+      "sha512": "3Ek1GQDc2QV7DyqnP3GgSPkYB1+nqrbd9VKYV/yn2hakykojeHfn0XbkBiytqa6XznuTOx5143PeI7lfd4CHkQ==",
+      "type": "package",
+      "path": "spectre.console/0.49.2-preview.0.70",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/net9.0/Spectre.Console.dll",
+        "lib/net9.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "logo.png",
+        "spectre.console.0.49.2-preview.0.70.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Spectre.Console >= 0.49.2-preview.0.70"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
+    "C:\\Users\\wallace\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
+      "projectUniqueName": "C:\\Users\\wallace\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerSimulator\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
       "projectName": "ProcessScheduler",
-      "projectPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerV4\\ProcessScheduler\\obj\\",
+      "projectPath": "C:\\Users\\wallace\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerSimulator\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
+      "packagesPath": "C:\\Users\\wallace\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wallace\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerSimulator\\ProcessSchedulerV4\\ProcessScheduler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\wallace\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,12 +79,17 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.49.2-preview.0.70, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -65,7 +106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

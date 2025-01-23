@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KyTBnR34U7Q=",
+  "dgSpecHash": "XTrcI4TDk5o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\wallace\\OneDrive\\Documentos\\UFF\\2024.2\\ProcessSchedulerSimulator\\ProcessSchedulerV4\\ProcessScheduler\\ProcessScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wallace\\.nuget\\packages\\spectre.console\\0.49.2-preview.0.70\\spectre.console.0.49.2-preview.0.70.nupkg.sha512"
+  ],
   "logs": []
 }
